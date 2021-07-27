@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 def solve(n, m):
     if (n > m):
         n, m = m, n

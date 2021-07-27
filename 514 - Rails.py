@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 def main():
     while True:
         line = input().strip()

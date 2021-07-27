@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 def value(card):
 	if card[0] in ['A','K','Q','J','T']:
 		return 10
