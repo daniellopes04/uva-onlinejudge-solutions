@@ -18,8 +18,8 @@ The solutions were made using Python.
 
 **List 2**
 
-| Problem | Done? | Accepted? | Run time | Sent? |
-| :-----: | :---: | :-------: | :------: | :---: |
-| **120** |  Yes  |    Yes    |  0.020   |  No   |
-| **514** |  Yes  |    Yes    |  0.250   |  No   |
-| **514** |  Yes  |    Yes    |  0.250   |  No   |
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+|  **120**  |  Yes  |    Yes    |  0.020   |  No   |
+|  **514**  |  Yes  |    Yes    |  0.250   |  No   |
+| **11572** |  Yes  |    Yes    |  1.160   |  No   |
