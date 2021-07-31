@@ -20,8 +20,8 @@ The solutions were made using Python.
 
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
-|  **120**  |  Yes  |    Yes    |  0.020   |  Yes  |
-|  **130**  |  Yes  |    Yes    |  0.090   |  Yes  |
-|  **514**  |  Yes  |    Yes    |  0.250   |  Yes  |
-| **11111** |  Yes  |    Yes    |  0.100   |  Yes  |
-| **11572** |  Yes  |    Yes    |  1.160   |  Yes  |
+|  **120**  |  Yes  |    Yes    |  0.020   |  No   |
+|  **130**  |  Yes  |    Yes    |  0.090   |  No   |
+|  **514**  |  Yes  |    Yes    |  0.250   |  No   |
+| **11111** |  Yes  |    Yes    |  0.100   |  No   |
+| **11572** |  Yes  |    Yes    |  1.160   |  No   |
