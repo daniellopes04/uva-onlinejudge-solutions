@@ -25,3 +25,10 @@ The solutions were made using Python.
 |  **514**  |  Yes  |    Yes    |  0.250   |  No   |
 | **11111** |  Yes  |    Yes    |  0.100   |  No   |
 | **11572** |  Yes  |    Yes    |  1.160   |  No   |
+
+**List 3**
+
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+|  **902**  |  Yes  |    Yes    |  0.530   |  No   |
+| **11385** |  Yes  |    Yes    |  0.010   |  No   |
