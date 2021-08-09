@@ -16,7 +16,6 @@ def main():
     for _ in range(cases):
         n = input()
     
-        #code = list(map(int, input().split()))
         code = []
         line = input().split()
 
