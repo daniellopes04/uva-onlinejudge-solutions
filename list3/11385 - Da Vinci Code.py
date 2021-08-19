@@ -37,7 +37,7 @@ def main():
                 strSize = max(strSize, index+1)
                 i += 1
                 
-        print("".join(decoded[:strSize]))
+        print(''.join(decoded[:strSize]))
 
 if __name__ == '__main__':
     main()

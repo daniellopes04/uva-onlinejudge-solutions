@@ -35,3 +35,13 @@ The solutions were made using Python.
 | **10298** |  Yes  |    Yes    |  0.760   |  Yes  |
 | **10305** |  Yes  |    Yes    |  0.010   |  Yes  |
 | **11385** |  Yes  |    Yes    |  0.010   |  Yes  |
+
+**List 4**
+
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+| **10219** |  Yes  |    Yes    |  0.010   |  No   |
+| **10035** |  Yes  |    Yes    |  0.080   |  NO   |
+|           |       |           |          |       |
+|           |       |           |          |       |
+|           |       |           |          |       |

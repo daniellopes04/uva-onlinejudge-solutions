@@ -15,7 +15,7 @@ def main():
             else:
                 n = int(items[0])
                 text = input().strip()
-                while text == "":
+                while text == '':
                     text = input().strip()
 
             frequency = {}

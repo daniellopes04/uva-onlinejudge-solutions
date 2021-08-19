@@ -17,7 +17,7 @@ def generate(n):
 def main():
     string = str(input())
 
-    while string != ".":
+    while string != '.':
         for divisor in generate(len(string)):
             power = math.floor(len(string) / divisor)
             found = True

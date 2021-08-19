@@ -37,7 +37,7 @@ def main():
                     if id in inEdges[i][1]:
                         inEdges[i][1].remove(id)
         
-        print(" ".join(map(str, order)))
+        print(' '.join(map(str, order)))
 
 if __name__ == '__main__':
     main()
