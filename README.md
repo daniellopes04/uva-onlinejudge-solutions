@@ -40,8 +40,8 @@ The solutions were made using Python.
 
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
+| **10035** |  Yes  |    Yes    |  0.080   |  No   |
+| **10213** |  Yes  |    Yes    |  0.030   |  No   |
 | **10219** |  Yes  |    Yes    |  0.010   |  No   |
-| **10035** |  Yes  |    Yes    |  0.080   |  NO   |
-|           |       |           |          |       |
-|           |       |           |          |       |
+| **10541** |  Yes  |    Yes    |  0.010   |  No   |
 |           |       |           |          |       |
