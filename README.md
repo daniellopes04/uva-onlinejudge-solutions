@@ -40,8 +40,18 @@ The solutions were made using Python.
 
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
+| **10018** |  Yes  |    Yes    |  0.020   |  No   |
 | **10035** |  Yes  |    Yes    |  0.080   |  No   |
 | **10213** |  Yes  |    Yes    |  0.030   |  No   |
 | **10219** |  Yes  |    Yes    |  0.010   |  No   |
 | **10541** |  Yes  |    Yes    |  0.010   |  No   |
-|           |       |           |          |       |
+
+**List 5**
+
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+| **10018** |  Yes  |    Yes    |  0.020   |  No   |
+| **10035** |  Yes  |    Yes    |  0.080   |  No   |
+| **10213** |  Yes  |    Yes    |  0.030   |  No   |
+| **10219** |  Yes  |    Yes    |  0.010   |  No   |
+| **10541** |  Yes  |    Yes    |  0.010   |  No   |
