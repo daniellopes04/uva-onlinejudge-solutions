@@ -51,7 +51,37 @@ The solutions were made using Python.
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
 | **10110** |  Yes  |    Yes    |  0.280   |  No   |
-| **0** |  No  |    No    |  0   |  No   |
-| **0** |  No  |    No    |  0   |  No   |
-| **0** |  No  |    No    |  0   |  No   |
-| **0** |  No  |    No    |  0   |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+
+**List 6**
+
+| Problem | Done? | Accepted? | Run time | Sent? |
+| :-----: | :---: | :-------: | :------: | :---: |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+
+**List 7**
+
+| Problem | Done? | Accepted? | Run time | Sent? |
+| :-----: | :---: | :-------: | :------: | :---: |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+
+**List 8**
+
+| Problem | Done? | Accepted? | Run time | Sent? |
+| :-----: | :---: | :-------: | :------: | :---: |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
