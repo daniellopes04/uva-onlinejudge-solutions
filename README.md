@@ -50,24 +50,34 @@ The solutions were made using Python.
 
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
+| **10006** |  Yes  |    Yes    |  0.720   |  No   |
+| **10104** |  Yes  |    Yes    |  1.070   |  No   |
 | **10110** |  Yes  |    Yes    |  0.280   |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
+| **10139** |  Yes  |    Yes    |  1.240   |  No   |
+| **10168** |  Yes  |    Yes    |  0.230   |  No   |
 
 **List 6**
 
-| Problem | Done? | Accepted? | Run time | Sent? |
-| :-----: | :---: | :-------: | :------: | :---: |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+| **10098** |  Yes  |    Yes    |  0.820   |  No   |
+| **10363** |  Yes  |    Yes    |  0.010   |  No   |
+| **10576** |  Yes  |    Yes    |  0.010   |  No   |
+| **10976** |  Yes  |    Yes    |  0.070   |  No   |
+| **11085** |  Yes  |    Yes    |  0.150   |  No   |
 
 **List 7**
 
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+|  **615**  |  Yes  |    Yes    |  0.010   |  No   |
+| **11094** |  Yes  |    Yes    |  0.010   |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+
+**List 8**
+
 | Problem | Done? | Accepted? | Run time | Sent? |
 | :-----: | :---: | :-------: | :------: | :---: |
 |  **0**  |  No   |    No     |    0     |  No   |
@@ -76,7 +86,17 @@ The solutions were made using Python.
 |  **0**  |  No   |    No     |    0     |  No   |
 |  **0**  |  No   |    No     |    0     |  No   |
 
-**List 8**
+**List 9**
+
+| Problem | Done? | Accepted? | Run time | Sent? |
+| :-----: | :---: | :-------: | :------: | :---: |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+|  **0**  |  No   |    No     |    0     |  No   |
+
+**List 10**
 
 | Problem | Done? | Accepted? | Run time | Sent? |
 | :-----: | :---: | :-------: | :------: | :---: |
