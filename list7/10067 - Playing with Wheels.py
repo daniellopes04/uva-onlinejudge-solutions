@@ -1,105 +1,106 @@
-import sys
+# -*- coding: UTF-8 -*-  
 from collections import deque
 
-
 class Graph:
-  def __init__(self):
-    NUM_VERTICES = 10000
+    def __init__(self):
+        NUM_VERTICES = 10000
 
-    self.num_vertices = NUM_VERTICES
-    self.edges = [[] for i in range(self.num_vertices)]
-    self.forbidden_states = set([])
+        self.numVertices = NUM_VERTICES
+        self.edges = [[] for _ in range(self.numVertices)]
+        self.forbiddenStates = set([])
 
-    def __set_data():
-      
-      def to_int(a, b, c, d):
-        return d + c * 10 + b * 100 + a * 1000
+        def __setData():
+            def toInt(a, b, c, d):
+                return d + c * 10 + b * 100 + a * 1000
 
-      for i in range(self.num_vertices):
-        t = i
-        t, d = divmod(t, 10)
-        t, c = divmod(t, 10)
-        a, b = divmod(t, 10)
-        
-        self.edges[i] = [
-          to_int(a, b, c, d-1 if d > 0 else 9),
-          to_int(a, b, c, d+1 if d < 9 else 0),
-          to_int(a, b, c-1 if c > 0 else 9, d),
-          to_int(a, b, c+1 if c < 9 else 0, d),
-          to_int(a, b-1 if b > 0 else 9, c, d),
-          to_int(a, b+1 if b < 9 else 0, c, d),
-          to_int(a-1 if a > 0 else 9, b, c, d),
-          to_int(a+1 if a < 9 else 0, b, c, d),
-        ]
+            for i in range(self.numVertices):
+                t = i
+                t, d = divmod(t, 10)
+                t, c = divmod(t, 10)
+                a, b = divmod(t, 10)
+                
+                self.edges[i] = [
+                    toInt(a, b, c, d - 1 if d > 0 else 9),
+                    toInt(a, b, c, d + 1 if d < 9 else 0),
+                    toInt(a, b, c - 1 if c > 0 else 9, d),
+                    toInt(a, b, c + 1 if c < 9 else 0, d),
+                    toInt(a, b - 1 if b > 0 else 9, c, d),
+                    toInt(a, b + 1 if b < 9 else 0, c, d),
+                    toInt(a - 1 if a > 0 else 9, b, c, d),
+                    toInt(a + 1 if a < 9 else 0, b, c, d),
+                ]
 
-    __set_data()
+        __setData()
 
-  def set_forbidden_states(self, forbiddens):
-    self.forbidden_states = set(forbiddens)
+    def setForbiddenStates(self, forbiddenConf):
+        self.forbiddenStates = set(forbiddenConf)
 
-  def min_path(self, s, e):
+    def validEdge(self, verticeStart, verticeEnd):
+        if verticeEnd  in self.forbiddenStates:
+            return False
 
-    if s == e:
-      return 0
+        return True 
 
-    distance_from_s = [-1] * self.num_vertices
+    def minPath(self, initial, target):
+        if initial == target:
+            return 0
 
-    def bfs(start, end):
-      
-      discovered = [False] * self.num_vertices
+        distanceFromInitial = [-1] * self.numVertices
 
-      q = deque([start])
-      distance_from_s[start] = 0
-      discovered[start] = True
+        def calculateMinPath(start, end):
+            discovered = [False] * self.numVertices
 
-      while len(q) > 0:
-        v = q.popleft()
-        
-        for y in self.edges[v]:
-          if not self.valid_edge(v, y):  # Check if configuration is valid
-            continue
+            q = deque([start])
+            distanceFromInitial[start] = 0
+            discovered[start] = True
 
-          if not discovered[y]:
+            while len(q) > 0:
+                v = q.popleft()
+                
+                for y in self.edges[v]:
+                    if not self.validEdge(v, y):
+                        continue
+
+                    if not discovered[y]:
+                    
+                        discovered[y] = True
+                        distanceFromInitial[y] = distanceFromInitial[v] + 1 
+
+                        if y == end:
+                            return
+
+                        q.append(y)
             
-            discovered[y] = True
-            distance_from_s[y] = distance_from_s[v] + 1 
+            return 
 
-            if y == end:
-              return # Done
+        calculateMinPath(initial, target)
+        return distanceFromInitial[target]
 
-            q.append(y)
-      
-      return 
+def toInt(a, b, c, d):
+    return d + c * 10 + b * 100 + a * 1000
 
-    bfs(s, e)
-    return distance_from_s[e]
+def main():
+    cases = int(input())
+    graph = Graph()
 
-  def valid_edge(self, v_start, v_end):
-    if v_end  in self.forbidden_states:
-      return False
-    return True 
+    for _ in range(cases):
+        line = input().strip()
 
+        while line == "":
+            line = input().strip()
+        
+        initialConf = toInt(*list(map(int, line.split())))
+        targetConf = toInt(*list(map(int, input().split())))
 
-def to_int(a, b, c, d):
-  return d + c * 10 + b * 100 + a * 1000
+        forbiddenConf = []
+        nForbiddenConf = int(input())
+        
+        for _ in range(nForbiddenConf):
+            forbiddenConf.append(toInt(*list(map(int, input().split()))))
 
-num_cases = int(input())
+        graph.setForbiddenStates(forbiddenConf)
 
+        print(graph.minPath(initialConf, targetConf))
 
-g = Graph()
-
-for c in range(num_cases):
-  line = input().strip()
-  while line == "":
-    line = input().strip()
-  s = to_int(*list(map(int, line.split())))
-  e = to_int(*list(map(int, input().split())))
-
-  forbiddens = []
-  n_forbidden = int(input())
-  for i in range(n_forbidden):
-    forbiddens.append(to_int(*list(map(int, input().split()))))
-
-  g.set_forbidden_states(forbiddens)
-
-  print(g.min_path(s, e))
+if __name__=='__main__':
+	main()

@@ -71,9 +71,9 @@ The solutions were made using Python.
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
 |  **615**  |  Yes  |    Yes    |  0.010   |  No   |
+| **10067** |  Yes  |    Yes    |  0.910   |  No   |
+| **10608** |  Yes  |    Yes    |  0.210   |  No   |
 | **11094** |  Yes  |    Yes    |  0.010   |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
 |   **0**   |  No   |    No     |    0     |  No   |
 
 **List 8**
