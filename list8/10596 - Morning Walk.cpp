@@ -30,7 +30,7 @@ int main() {
             visited[i] = 1;
         }
 
-        while(m--) {
+        for(i = 0; i < m; i++) {
             cin >> u;
             cin >> v;
 
