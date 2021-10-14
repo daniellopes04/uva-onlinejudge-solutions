@@ -78,13 +78,13 @@ The solutions were made using Python.
 
 **List 8**
 
-| Problem | Done? | Accepted? | Run time | Sent? |
-| :-----: | :---: | :-------: | :------: | :---: |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
-|  **0**  |  No   |    No     |    0     |  No   |
+|  Problem  | Done? | Accepted? | Run time | Sent? |
+| :-------: | :---: | :-------: | :------: | :---: |
+| **10596** |  Yes  |    Yes    |  0.110   |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
+|   **0**   |  No   |    No     |    0     |  No   |
 
 **List 9**
 
