@@ -80,11 +80,11 @@ The solutions were made using Python.
 
 |  Problem  | Done? | Accepted? | Run time | Sent? |
 | :-------: | :---: | :-------: | :------: | :---: |
+|  **820**  |  Yes  |    Yes    |  0.010   |  No   |
+| **10449** |  Yes  |    Yes    |  0.000   |  No   |
 | **10596** |  Yes  |    Yes    |  0.110   |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
-|   **0**   |  No   |    No     |    0     |  No   |
+| **10986** |  Yes  |    Yes    |  0.160   |  No   |
+| **11228** |  Yes  |    Yes    |  0.200   |  No   |
 
 **List 9**
 
